@@ -43,7 +43,7 @@
     &__current {
       margin-top: 40px;
       .weather {
-        width: 40vw;
+        width: 50vw;
         padding: 20px;
         &--location {
           @include flex-sb-c;
@@ -58,6 +58,7 @@
           &__temp {
             @include flexcolumn;
             justify-content: center;
+            align-items: flex-start;
 
             &__curr {
               width: 10vw;
