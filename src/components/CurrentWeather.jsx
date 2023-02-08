@@ -85,7 +85,6 @@ const CurrentWeather = ({ data }) => {
           </span>
         </div>
       </div>
-      <p className="text">{localtime}</p>
     </div>
   );
 };
