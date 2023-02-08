@@ -48,13 +48,13 @@ const Forecast = ({ data }) => {
               <div className="forecast--wrapper__day__sun">
                 <span className="raise">
                   <span className="icon">
-                    <FiSunrise />
+                    <FiSunrise size={30}/>
                   </span>
                   <span className="text">{sunrise}</span>
                 </span>
                 <span className="set">
                   <span className="icon">
-                    <FiSunset />
+                    <FiSunset size={30}/>
                   </span>
                   <span className="text">{sunset}</span>
                 </span>
@@ -91,7 +91,7 @@ const Forecast = ({ data }) => {
               <div className="forecast--wrapper__day__wind">
                 <span className="humidity">
                   <span className="icon">
-                    <WiHumidity />
+                    <WiHumidity size={30}/>
                   </span>
                   <span className="text">
                     {avghumidity}
@@ -100,7 +100,7 @@ const Forecast = ({ data }) => {
                 </span>
                 <span className="wind">
                   <span className="icon">
-                    <FiWind />
+                    <FiWind size={30}/>
                   </span>
                   <span className="text">
                     {maxwind_kph}
@@ -109,7 +109,7 @@ const Forecast = ({ data }) => {
                 </span>
                 <span className="rain">
                   <span className="icon">
-                    <WiRain />
+                    <WiRain size={30}/>
                   </span>
                   <span className="text">
                     {daily_chance_of_rain}
@@ -149,7 +149,7 @@ const Forecast = ({ data }) => {
                       <span className="wind">
                         <span className="speed">
                           <span className="icon">
-                            <FiWind />
+                            <FiWind size={30}/>
                           </span>
                           <span className="text">
                             {wind_kph}
@@ -158,13 +158,13 @@ const Forecast = ({ data }) => {
                         </span>
                         <span className="dir">
                           <span className="icon">
-                            <WiWindDeg />
+                            <WiWindDeg size={30}/>
                           </span>
                           <span className="text">{wind_dir}</span>
                         </span>
                         <span className="humidity">
                           <span className="icon">
-                            <WiHumidity />
+                            <WiHumidity size={30}/>
                           </span>
                           <span className="text">
                             {humidity}
@@ -173,7 +173,7 @@ const Forecast = ({ data }) => {
                         </span>
                         <span className="rain">
                           <span className="icon">
-                            <WiRain />
+                            <WiRain size={30}/>
                           </span>
                           <span className="text">
                             {chance_of_rain}
