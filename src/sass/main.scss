@@ -1,0 +1,8 @@
+@import './base/reset';
+@import './abstract/variables';
+@import './abstract/mixins';
+@import './components/weather.scss';
+
+body{
+    font-family:$font-stack;
+}
